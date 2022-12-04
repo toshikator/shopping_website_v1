@@ -1,0 +1,148 @@
+
+
+.section9 .wrapper{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.section9 .wrapper>div{
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 500px;
+}
+
+
+
+.section9 .wrapper .right-part{
+    position: relative;
+    display: block;
+    flex: 11;
+}
+
+.section9 .right-part div:nth-child(2){
+    position: absolute;
+    border: 2px solid #EFECEB;
+    border-radius: 50%;
+    width: 401px;
+    height: 401px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+.section9 .right-part div:nth-child(3){
+    position: absolute;
+    border: 2px solid #EFECEB;
+    border-radius: 50%;
+    width: 328px;
+    height: 328px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+.section9 .right-part div:nth-child(4){
+    position: absolute;
+    border: 2px solid #EFECEB;
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+.section9 .wrapper .right-part .mobile{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%) scale(115%);
+}
+
+.section9 .right-part img:nth-last-child(1){
+    position: absolute;
+    right: 13%;
+    top: 5.7%;
+    scale: 70%;
+}
+
+.section9 .right-part img:nth-last-child(2){
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+    scale: 50%;
+}
+
+.section9 .right-part img:nth-last-child(3){
+    position: absolute;
+    left: 11%;
+    bottom: 3.6%;
+    scale: 50%;
+}
+
+.section9 .right-part img:nth-last-child(4){
+    position: absolute;
+    left: 16%;
+    top: 5.7%;
+    scale: 70%;
+}
+
+.section9 .wrapper .left-part{
+    flex: 11;
+    display: flex;
+    position: relative;
+    height: 80%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 58%;
+    margin-left: 10%;
+}
+
+.section9 .wrapper .left-part>div{
+    height: fit-content;
+}
+
+.section9 .wrapper .left-part .slogan{
+    width: fit-content;
+    font-weight: 900;
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+}
+
+.section9 .wrapper .left-part .subslogan{
+    width: 60%;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.section9 .left-part div:last-child{
+    height: fit-content;
+}
+
+.section9 .wrapper .left-part a button{
+    width: 143px;
+    height: 50px;
+    background-size: cover;
+    margin: 10px;
+}
+
+
+.section9 .wrapper .left-part .google{
+    background-image: url("./img/google.png");
+
+}
+
+.section9 .wrapper .left-part .apple{
+    background-image: url("./img/apple.png");
+
+}

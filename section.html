@@ -3,62 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
-    <style>
-        .section2>div{
-            display: flex;
-            background-color: #F4F6F5;
-            border-radius: 40px;
-            height: 500px;
-        }
-        .left-side{
-            flex: 5;
-        }
-        .right-side{
-            position: relative;
-            flex: 6;
-        }
-        .right-side img:nth-child(1){
-            position: absolute;
-            width: 460px;
-            bottom: 0;
-        }
-        .right-side img:not(:nth-child(1)){
-            width: 32px;
-        }
-        .right-side img:nth-child(2){
-            position: absolute;
-            left: 0;
-            top:40px;
-        }
-        .right-side img:nth-child(3){
-            position: absolute;
-            right: 100px;
-            top:48px;
-        }
-        .right-side img:nth-child(4){
-            position: absolute;
-            right: 40px;
-            bottom: 48px;
-        }
-        .right-side img:nth-child(5){
-            position: absolute;
-            left: 40px;
-            bottom: 48px;
-        }
-    </style>
+    <link rel="stylesheet" href="section.css">
 </head>
 <body>
-<div class="section2">
+
+<div class="section9">
     <div class="wrapper">
-        <div class="left-side"></div>
-        <div class="right-side">
-            <img src="img/Woman.png" alt="woman">
-            <img src="img/star.png" alt="star1">
-            <img src="img/star.png" alt="star2">
-            <img src="img/star.png" alt="star3">
-            <img src="img/star.png" alt="star4">
+
+        <div class="left-part">
+            <div class="slogan">DOWNLOAD APP &</div>
+            <div class="slogan">GET THE VOUCHER!</div>
+            <div class="subslogan">Get 30% off for first transaction using
+                Rondovision mobile app for now.</div>
+            <div>
+                <a href="#">
+                    <button class="apple"></button>
+                </a>
+                <a href="#">
+                    <button class="google"></button>
+                </a>
+            </div>
+        </div>
+
+        <div class="right-part">
+            <img class="mobile" src="./img/mobile-app.png" alt="mobile app">
+            <div></div>
+            <div></div>
+            <div></div>
+            <img src="./img/grey-dot.png" alt="grey dot">
+            <img src="./img/yellow-dot.png" alt="yellow dot">
+            <img src="./img/grey-dot.png" alt="grey dot">
+            <img src="./img/yellow-dot.png" alt="yellow dot">
         </div>
     </div>
 </div>
