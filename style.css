@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 9px;
@@ -770,7 +770,7 @@ body>div:nth-child(2n){
 /*MEDIA*/
 @media (min-width:900px) and (max-width:1200px) {
     body{
-        background-color: salmon;
+        /*background-color: salmon;*/
     }
     .wrapper{
         width: 900px;
@@ -826,7 +826,7 @@ body>div:nth-child(2n){
 }
 @media (max-width:900px) {
     body{
-        background-color: yellow;
+        /*background-color: yellow;*/
     }
     .wrapper{
         width: 450px;
