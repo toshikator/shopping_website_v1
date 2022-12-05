@@ -1,148 +1,91 @@
 
 
-.section9 .wrapper{
+
+.section11{
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 382px;
+    align-items: flex-end;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.section11 .wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    align-items: flex-start;
+
+}
+
+.section11 .wrapper div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.section11 .wrapper>div:first-child{
+    flex: 5;
+}
+
+.section11 .wrapper>div:first-child>div:first-child{
+    font-weight: 900;
+    font-size: 4em;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: white;
+    padding-top: 3%;
+}
+
+.section11 .wrapper>div:first-child>div:nth-child(2){
+    color: #8E8E8E;
+    font-size: 1.8em;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.section11 .wrapper>div:first-child>div:last-child{
     display: flex;
     position: relative;
     flex-direction: row;
-    overflow: hidden;
-    justify-content: space-evenly;
-    height: 500px;
+    margin-top: 5%;
 }
 
-.section9 .wrapper>div{
-    position: relative;
-    display: flex;
-    height: 100%;
-    width: 500px;
-}
-
-
-
-.section9 .wrapper .right-part{
+.section11 .wrapper>div:first-child>div:last-child>div{
     position: relative;
     display: block;
-    flex: 11;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    background-color: #EBD96B;
+    border-radius: 14px;
 }
 
-.section9 .right-part div:nth-child(2){
+.section11 .wrapper>div:first-child>div:last-child>div>a{
     position: absolute;
-    border: 2px solid #EFECEB;
-    border-radius: 50%;
-    width: 401px;
-    height: 401px;
+    display: block;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    z-index: -1;
 }
 
-.section9 .right-part div:nth-child(3){
-    position: absolute;
-    border: 2px solid #EFECEB;
-    border-radius: 50%;
-    width: 328px;
-    height: 328px;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: -1;
+.section11 .wrapper>div:not(:first-child){
+    flex: 2;
+    font-size: 1.8em;
+    font-weight: 400;
 }
 
-.section9 .right-part div:nth-child(4){
-    position: absolute;
-    border: 2px solid #EFECEB;
-    border-radius: 50%;
-    width: 260px;
-    height: 260px;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: -1;
+.section11 .wrapper>div:not(:first-child) h4{
+    color: #D9D9D9;
 }
 
-.section9 .wrapper .right-part .mobile{
-    position: absolute;
-    height: 100%;
-    left: 50%;
-    transform: translateX(-50%) scale(115%);
-}
-
-.section9 .right-part img:nth-last-child(1){
-    position: absolute;
-    right: 13%;
-    top: 5.7%;
-    scale: 70%;
-}
-
-.section9 .right-part img:nth-last-child(2){
-    position: absolute;
-    right: 15%;
-    bottom: 15%;
-    scale: 50%;
-}
-
-.section9 .right-part img:nth-last-child(3){
-    position: absolute;
-    left: 11%;
-    bottom: 3.6%;
-    scale: 50%;
-}
-
-.section9 .right-part img:nth-last-child(4){
-    position: absolute;
-    left: 16%;
-    top: 5.7%;
-    scale: 70%;
-}
-
-.section9 .wrapper .left-part{
-    flex: 11;
-    display: flex;
-    position: relative;
-    height: 80%;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding-top: 5%;
-    padding-bottom: 58%;
-    margin-left: 10%;
-}
-
-.section9 .wrapper .left-part>div{
-    height: fit-content;
-}
-
-.section9 .wrapper .left-part .slogan{
-    width: fit-content;
-    font-weight: 900;
-    font-size: 4em;
-    margin: 0;
-    padding: 0;
-}
-
-.section9 .wrapper .left-part .subslogan{
-    width: 60%;
-    font-weight: 500;
-    font-size: 2em;
-}
-
-.section9 .left-part div:last-child{
-    height: fit-content;
-}
-
-.section9 .wrapper .left-part a button{
-    width: 143px;
-    height: 50px;
-    background-size: cover;
-    margin: 10px;
-}
-
-
-.section9 .wrapper .left-part .google{
-    background-image: url("./img/google.png");
-
-}
-
-.section9 .wrapper .left-part .apple{
-    background-image: url("./img/apple.png");
-
+.section11 .wrapper>div:not(:first-child) a{
+    text-decoration: none;
+    color: #7A7A7A;
+    line-height: 34px;
 }
