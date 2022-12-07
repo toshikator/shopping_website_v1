@@ -1,4 +1,4 @@
-.section1 .wrapper{
+.header .wrapper{
     display: flex;
     position: relative;
     flex-direction: row;
@@ -8,7 +8,7 @@
     text-transform: uppercase;
 }
 
-.section1 .wrapper>div:first-child{
+.header .wrapper>div:first-child{
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -16,22 +16,22 @@
     font-size: 4em;
 }
 
-.section1 .wrapper>div:first-child>img{
+.header .wrapper>div:first-child>img{
     object-fit: contain;
 }
 
-.section1 .wrapper>div:not(:first-child){
+.header .wrapper>div:not(:first-child){
     margin-left: 45px;
 }
 
-.section1 .wrapper>div:not(:first-child)>a{
+.header .wrapper>div:not(:first-child)>a{
     text-decoration: none;
     color: black;
     font-weight: 500;
     font-size: 2em;
 }
 
-.section1 .wrapper>div:last-child>a>button{
+.header .wrapper>div:last-child>a>button{
     text-transform: uppercase;
     border-radius: 6px;
     background-color: black;
